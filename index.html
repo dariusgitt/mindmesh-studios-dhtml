@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MindMesh Studios</title>
+<script src="myscript.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <header>
+    <h1><span style="color: orange;">MIND</span><span style="color: #121212;">MESH</span>
+        <!-- FIXED: removed broken Images/logo.png (file not in project) - add it back when you have it -->
+        <span style="color:blue">STUDIOS</span></h1>
+    </header>
+
+    <section id="mySection">
+        <p><b><span style="color:orange;">Welcome to MindMesh Studios!</span></b><br>
+            A student-powered tech lab crafting playful, modular tools for learning, creativity, and community impact. Dive into our projects
+            and see how ideas click.
+         </p><br>
+        <p>Follow the links below to learn more about our company and our projects.
+        </p>
+        <table border="1" align="center">
+          <tr>
+          <td id="cell_services" width="20%"><a href="#" onMouseOut="LostFocus('...','nopic');"
+        onMouseOver="Focus('Discover our learning tools, creative platforms, and tech utilities built for PNG students.','pic1');">
+          <b>Solutions &amp; Services</b></a></td>
+          <td id="cell_projects" width="20%"><a href="#" onMouseOut="LostFocus('...','nopic');"
+        onMouseOver="Focus('Explore featured projects like LearnHub, SQL Quest, and FlashForge','pic2');">
+         <b>Projects</b></a></td>
+         <td id="cell_contact" width="20%"><a href="#" onMouseOut="LostFocus('...','nopic');"
+        onMouseOver="Focus('Reach out to collaborate, ask questions, or share feedback with the MindMesh Studios team','pic3');">
+         <b>Contact</b></a></td>
+         <td id="cell_about" width="20%"><a href="#" onMouseOut="LostFocus('...','nopic');"
+        onMouseOver="Focus('Meet the team, learn our mission, and see how MindMesh Studios empowers learners and creators','pic4');">
+         <b>About Us</b></a></td>
+         </tr>
+        <!-- FIXED: colspan was 5 but table only has 4 columns -->
+        <tr><td id="desc" align="center" colspan="4">...</td></tr>
+        </table>
+    </section>
+
+<p>My info:</p>
+     <!-- FIXED: left:20 -> left:20px, top:800 -> top:800px, powder blue -> powderblue -->
+     <div id="myinfo" style="position: absolute; left: 20px; top: 800px; width:250px; height:150px; background-color: powderblue;">
+    Darius Jnr Jonah.<br>
+    ICT Sem 2 Student<br>
+    DLC Lae<br>
+</div>
+<br><br><br><br>
+        <footer>
+            &copy; Darius Jr. | DHTML MINI PROJECT
+        </footer>
+</body>
+</html>
